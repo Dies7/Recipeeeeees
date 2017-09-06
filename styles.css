@@ -1,13 +1,20 @@
-body {
+/*body {
    background-image: url("images/foodbg.jpg");
    background-size: 100%;
    background-attachment: fixed;
    background-repeat: no-repeat;
-}
+}*/
 /*.main-background-page {
   background-image: url("images/whatever.jpg");
   background-size: 100%;
 }*/
+html {
+  background: url("images/foodbg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 table {
   border-collapse: collapse;
   width: 40%;
